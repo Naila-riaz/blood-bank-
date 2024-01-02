@@ -1,0 +1,329 @@
+body{
+    margin:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+nav {
+    margin-top: 12px;
+    padding-right: -50px;
+    display: flex;
+
+   
+    justify-content:right;
+    
+margin-right: 5px;
+    
+}
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #978F8F;
+   margin-right: 24px;
+
+}
+h4{
+    color:#D63031;
+    font-size:medium;
+    display: flex;
+    padding: 0px;
+    margin-top: 0px;
+    padding-top: 12px;
+}
+h5{
+    color:#D63031;
+margin-top: -20px;
+padding-left: 34px;
+font-size: large;
+
+}
+.SEARCH input{
+    border-radius:2px;
+    border: inset whitesmoke ;
+    margin-top: -12px;
+    border-width: 5px;
+}
+.container{
+    background-color: rgba(233, 96, 96,56% ) ;
+    margin-top: -35px;
+    justify-content: left;
+    height: 652px;
+    border-radius: 0px 12px 12px 0px;
+    width: 200px;
+    background: linear-gradient(pink,red);
+    position: fixed;
+    padding-top:-30px;
+    
+}
+.container a{
+    display: block;
+    line-height: 65px;
+    
+    
+    text-decoration: none;
+    color: white;
+}
+.box{
+    background-color: pink;
+    border-radius: 32px;
+    width: 550px ;
+    height: 500px;
+    display: flex;
+    margin-left: 40%;
+    justify-content: center;
+    margin-top: 4%;
+    background: linear-gradient(rgb(241, 155, 169) ,rgb(252, 50, 50));
+    
+}
+.DONOR{
+    margin-top: 100px;
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+
+}
+.HOSPITAL{
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+}
+.RECORDS{
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+}
+.REQUEST{
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+    border-bottom: 2px solid rgba(241, 126, 126,56% )  ;
+    
+}
+.REQUEST a{
+    margin-left: 53px;
+    font-weight: bolder;
+}
+.DONOR a{
+    margin-left: 53px;
+    font-weight: bolder;
+}
+.HOSPITAL a{
+    margin-left: 53px;  
+    font-weight: bolder;
+}
+.RECORDS a{
+    margin-left: 53px;  
+    font-weight: bolder;
+}
+
+.preview{
+    margin-top: 180px;
+    border-radius: 32px solid black;
+   margin-left:12px;
+    color: black;
+}
+
+h1{
+    margin-left: 7px;
+    align-content: center;
+    color:#D63031;
+    padding-bottom: 34px;
+}
+
+.next{
+    
+    margin-left: 1279px;
+    margin-top:40px;
+}
+.next a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.NAME{
+    background-color: #978F8F;
+    position: fixed;
+    width :538px;
+    height: 53px;
+    margin-top: 130px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+}
+.NAME button{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+
+}
+button p{
+    color: brown;
+    margin-right: 45px;
+    font-size: large;
+    margin-top: 6px;
+}
+.box1  p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box2 p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box3 p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.con{
+    background-color: #978F8F;
+    width :538px;
+    height: 53px;
+    margin-top: 220px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+    position: fixed;
+}
+.con button{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+
+}
+button P{
+    color: brown;
+    margin-right: 15px;
+    font-size: large;
+    margin-top: 6px;
+}
+.box4 p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box5 p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box6 p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.cont{
+    background-color: #978F8F;
+    width :538px;
+    height: 53px;
+    margin-top: 400px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+    position: fixed;
+}
+.cont button{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+}
+button p{
+    color: brown;
+    margin-right: 45px;
+    font-size: large;
+    margin-top: 6px;
+}
+.box7 p{
+    color: black;
+    
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box8 p{
+   
+        color: black;
+        
+        font-weight:bolder ;
+        font-size: 40px;
+        margin-top: -8px;
+   
+}
+.box9 p{
+    
+        color: black;
+        
+        font-weight:bolder ;
+        font-size: 40px;
+        margin-top: -8px;
+    
+}
+.contain{
+    background-color: #978F8F;
+    width :538px;
+    position: fixed;
+    height: 53px;
+    margin-top: 310px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+}
+.contain button{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+}
+button p{
+    color:brown;
+    margin-right: 45px;
+    font-size: large;
+    margin-top: 6px;
+}
+.box10 p{
+    color: black;
+        
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box11 p{
+    color: black;
+        
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.box12 p{
+    color: black;
+        
+    font-weight:bolder ;
+    font-size: 40px;
+    margin-top: -8px;
+}
