@@ -1,0 +1,435 @@
+body{
+    margin:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+nav {
+    margin-top: 12px;
+    padding-right: -50px;
+    display: flex;
+
+   
+    justify-content:right;
+    
+margin-right: 5px;
+    
+}
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #978F8F;
+   margin-right: 24px;
+
+}
+h4{
+    color:#D63031;
+    font-size:medium;
+    display: flex;
+    padding: 0px;
+    margin-top: 0px;
+    padding-top: 12px;
+}
+h5{
+    color:#D63031;
+margin-top: -20px;
+padding-left: 34px;
+font-size: large;
+
+}
+.SEARCH input{
+    border-radius:2px;
+    border: inset whitesmoke ;
+    margin-top: -12px;
+    border-width: 5px;
+}
+.container{
+    background-color: rgba(233, 96, 96,56% ) ;
+    margin-top: -35px;
+    justify-content: left;
+    height: 652px;
+    border-radius: 0px 12px 12px 0px;
+    width: 200px;
+    background: linear-gradient(pink,red);
+    position: fixed;
+    padding-top:-30px;
+    
+}
+.container a{
+    display: block;
+    line-height: 65px;
+    
+    
+    text-decoration: none;
+    color: white;
+}
+.box{
+    background-color: pink;
+    border-radius: 32px;
+    width: 550px ;
+    height: 500px;
+    display: flex;
+    margin-left: 40%;
+    justify-content: center;
+    margin-top: 4%;
+    background: linear-gradient(rgb(241, 155, 169) ,rgb(252, 50, 50));
+    
+}
+.DONOR{
+    margin-top: 100px;
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+
+}
+.HOSPITAL{
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+}
+.RECORDS{
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+}
+.REQUEST{
+    border-top: 2px solid rgba(241, 126, 126,56% ) ;
+    border-bottom: 2px solid rgba(241, 126, 126,56% )  ;
+    
+}
+.REQUEST a{
+    
+    margin-left: 53px;
+    font-weight: bolder;
+}
+.DONOR a{
+    margin-left: 53px;
+    font-weight: bolder;
+}
+.HOSPITAL a{
+   
+    margin-left: 53px;  
+    font-weight: bolder;
+}
+.RECORDS a{
+   
+    margin-left: 53px;  
+    font-weight: bolder;
+}
+
+.preview{
+   
+    margin-top: 180px;
+    border-radius: 32px solid black;
+   margin-left:12px;
+    color: black;
+}
+
+h1{
+    margin-left:7px;
+    position: fixed;
+   margin-top: 19px;
+    align-content: center;
+    color:#D63031;
+    padding-bottom: 34px;
+}
+.tag p{
+    margin-left: 0px;
+    margin-top: 63px;
+    margin-right: 02px;
+    font-weight: bold;
+font-size: large;
+   
+    
+   
+}
+
+.next{
+    
+    margin-left: 1279px;
+    margin-top:40px;
+}
+.next a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.NAME{
+    background-color: #978F8F;
+    position: fixed;
+    width :538px;
+    height: 53px;
+    margin-top: 160px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+}
+.NAME button{
+    width: 500px;
+    height: 40px;
+    border: 0px solid gray;
+    display: flex;
+    background-color: #978F8F;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+
+}
+button p{
+    color: brown;
+    margin-right: 45px;
+    font-size: large;
+    margin-top: 6px;
+}
+
+
+
+.con{
+    background-color: #978F8F;
+    width :538px;
+
+    height: 53px;
+    margin-top: 240px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+    position: fixed;
+}
+.con button{
+    width: 500px;
+    height: 40px;
+    border: 0px solid grey;
+    background-color: #978F8F;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+
+}
+button P{
+    color: brown;
+    margin-right: 15px;
+    font-size: large;
+    margin-top: 6px;
+}
+
+.cont{
+    background-color: #978F8F;
+    width :538px;
+    height: 53px;
+    margin-top: 400px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+    position: fixed;
+}
+.cont button{
+    width: 500px;
+    height: 40px;
+    border: 0px solid gray;
+    background-color: #978F8F;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+}
+button p{
+    color: brown;
+    margin-right: 45px;
+    font-size: large;
+    margin-top: 6px;
+}
+
+.contain{
+    background-color: #978F8F;
+    width :538px;
+    position: fixed;
+    height: 53px;
+    margin-top: 320px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+}
+.contain button{
+    width: 500px;
+    height: 40px;
+    border: 0px solid gray;
+    background-color: #978F8F;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+}
+button p{
+    color:brown;
+    margin-right: 45px;
+    font-size: large;
+    margin-top: 6px;
+}
+
+.req{
+    background-color: #978F8F;
+    position: fixed;
+    width :538px;
+    height: 44px;
+    margin-top: 90px;
+    margin-left: 0px;
+    padding-right: 12px;
+    margin-right:0px;
+}
+.req button{
+    width: 500px;
+    height: 40px;
+    border: 0px solid gray;
+    display: flex;
+    justify-content:start;
+    margin-top:4px;
+    margin-left:30px;
+    margin-right: 0px;
+    background-color: #978F8F;
+   
+}
+ .req button p{
+    color:brown;
+    margin-right: 85px;
+
+    margin-top:-04px;
+    margin-left: 23px;
+    
+}
+  .req .line p{
+    color: black;
+        
+    font-weight:bolder ;
+    font-size: 47px;
+    margin-top: -15px;
+
+}
+.b button{
+border: 2px solid blue;
+border-radius: 32px;
+width: 73px;
+height: 22px;
+margin-top: -15px;
+background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+margin-left: 450px;
+
+
+}
+.b button p{
+    margin-top:1px;
+    color: white;
+    font-size: small;
+margin-left: 5px;
+}
+.bb button{
+    border: 2px solid blue;
+border-radius: 32px;
+width: 87px;
+height: 22px;
+margin-top: -21px;
+background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+margin-left: 360px;
+
+}
+.bb button p{
+    font-size: small;
+    margin-top:1px;
+    color: white;
+margin-left: 9px;
+}
+.b1 button{
+    border: 2px solid blue;
+border-radius: 32px;
+width: 73px;
+height: 22px;
+margin-top: -15px;
+background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+margin-left: 450px;
+
+}
+.b1 button p{
+    margin-top:1px;
+    color: white;
+    font-size: small;
+margin-left: 5px;
+}
+.bb1 button{
+    border: 2px solid blue;
+    border-radius: 32px;
+    width: 87px;
+    height: 22px;
+    margin-top: -21px;
+    background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+    margin-left: 360px;
+    
+}
+.bb1 button p{
+    font-size: small;
+    margin-top:1px;
+    color: white;
+margin-left: 9px;
+}
+.b2 button{
+    border: 2px solid blue;
+    border-radius: 32px;
+    width: 73px;
+    height: 22px;
+    margin-top: -15px;
+    background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+    margin-left: 450px;
+    
+}
+.b2 button p{
+    margin-top:1px;
+    font-size: small;
+    color: white;
+margin-left: 5px;
+}
+.bb2 button{
+    border: 2px solid blue;
+    border-radius: 32px;
+    width: 87px;
+    height: 22px;
+    margin-top: -21px;
+    background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+    margin-left: 360px;
+    
+}
+.bb2 button p{
+    font-size: small;
+    margin-top:1px;
+    color: white;
+margin-left: 9px;
+}
+.b3 button{
+    border: 2px solid blue;
+    border-radius: 32px;
+    width: 73px;
+    height: 22px;
+    margin-top: -15px;
+    background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+    margin-left: 450px;
+    
+}
+.b3 button p{
+    margin-top:1px;
+    color: white;
+    font-size: small;
+margin-left: 4px;
+}
+.bb3 button{
+    border: 2px solid blue;
+    border-radius: 32px;
+    width: 87px;
+    height: 22px;
+    margin-top: -21px;
+    background:linear-gradient(rgb(69, 69, 230),rgb(84, 130, 230));
+    margin-left: 360px;
+    
+}
+.bb3 button p{
+    font-size: small;
+    margin-top:1px;
+    color: white;
+margin-left: 9px;
+}
