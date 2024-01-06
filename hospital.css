@@ -185,6 +185,9 @@ background-color:blue;
     background-color: blue;
 
 }
+nav a:hover{
+    color: #D63031;
+ }
 .SUB p{
     font-size: medium;
     margin-top: 3px;

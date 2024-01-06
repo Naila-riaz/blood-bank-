@@ -298,6 +298,9 @@ button p{
     font-size: larger;
     
 }
+nav a:hover{
+    color: #D63031;
+ }
   .req .line p{
     color: black;
         

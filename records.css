@@ -23,6 +23,9 @@ nav a{
    margin-right: 24px;
 
 }
+nav a:hover{
+    color: #D63031;
+ }
 h4{
     color:#D63031;
     font-size:medium;
