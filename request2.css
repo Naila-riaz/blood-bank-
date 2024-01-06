@@ -288,12 +288,14 @@ button p{
     background-color: #978F8F;
    
 }
- .req button p{
-    color:brown;
+ .req button a{
+    color:white;
     margin-right: 85px;
-
-    margin-top:-04px;
+    text-decoration: none;
+    margin-top:7px;
     margin-left: 23px;
+    font-weight: bolder;
+    font-size: larger;
     
 }
   .req .line p{
