@@ -58,7 +58,7 @@ img{
     height: 20px;
     border: inset whitesmoke;
 }
-.button{
+.button button{
     cursor: pointer;
     border-radius: 32px;
     margin-left: 50px;
@@ -71,11 +71,11 @@ img{
 
 }
 .button h6{
-    margin-left: 70px;
+    margin-left: -5px;
     font-weight: bolder;
     color :white;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 12px;
     font-size: 1.1em;
     cursor: pointer;
 }
