@@ -79,7 +79,7 @@ img{
 }
 .other {
     margin-left: 45px;
-    margin-top: 90px;
+    margin-top: 60px;
     color: white;
 }
 img{
@@ -93,4 +93,18 @@ p{
     color:white;
 
     margin-bottom: 0px;
+}
+.fa-google{
+    margin-right:15px;
+    color: rgba(238, 38, 38, 0.959);
+    margin-left:82px ;
+    margin-top: 2px;
+    font-size: 42px;
+}
+.fa-facebook{
+    margin-right:15px;
+    color: blue;
+    margin-left:22px ;
+    margin-top: 2px;
+    font-size: 42px;
 }

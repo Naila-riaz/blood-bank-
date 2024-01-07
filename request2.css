@@ -71,6 +71,7 @@ font-size: large;
     height: 500px;
     display: flex;
     margin-left: 40%;
+
     justify-content: center;
     margin-top: 4%;
     background: linear-gradient(rgb(241, 155, 169) ,rgb(252, 50, 50));
@@ -297,6 +298,9 @@ button p{
     font-weight: bolder;
     font-size: larger;
     
+}
+.req button a:hover{
+    color: black;
 }
 nav a:hover{
     color: #D63031;

@@ -152,7 +152,7 @@ h1{
     border: 2px solid black;
     display: flex;
     justify-content:start;
-    margin-top:4px;
+    margin-top:-23px;
     margin-left:30px;
     margin-right: 0px;
 
@@ -200,7 +200,7 @@ button p{
     border: 2px solid black;
     display: flex;
     justify-content:start;
-    margin-top:4px;
+    margin-top:-23px;
     margin-left:30px;
     margin-right: 0px;
 
@@ -248,7 +248,7 @@ button P{
     border: 2px solid black;
     display: flex;
     justify-content:start;
-    margin-top:4px;
+    margin-top:-23px;
     margin-left:30px;
     margin-right: 0px;
 }
@@ -299,7 +299,7 @@ button p{
     border: 2px solid black;
     display: flex;
     justify-content:start;
-    margin-top:4px;
+    margin-top:-23px;
     margin-left:30px;
     margin-right: 0px;
 }
